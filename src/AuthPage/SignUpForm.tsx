@@ -80,7 +80,7 @@ const SignUpForm = (props: SignUpFormProps) => {
         <TextInput
           label="First name"
           name="first_name"
-          placeholder="Adam"
+          placeholder="Kaustuv"
           style={{ width: isMobile ? "100%" : "calc(50% - 6px)" }}
           onChange={(e) => setFirstName(e.target.value)}
         />
@@ -88,7 +88,7 @@ const SignUpForm = (props: SignUpFormProps) => {
         <TextInput
           label="Last name"
           name="last_name"
-          placeholder="La Morre"
+          placeholder="Mishra"
           style={{
             width: isMobile ? "100%" : "calc(50% - 6px)",
             float: "right",
@@ -99,7 +99,7 @@ const SignUpForm = (props: SignUpFormProps) => {
         <TextInput
           label="Email"
           name="email"
-          placeholder="adam@lamorre.co"
+          placeholder="kaustuvmishra@coding.com"
           style={{ width: isMobile ? "100%" : "calc(50% - 6px)" }}
           onChange={(e) => setEmail(e.target.value)}
         />
